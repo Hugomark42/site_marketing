@@ -1,0 +1,75 @@
+/* estilos genéricos */
+
+.roxo-20{
+    background-color: rgb(196, 155, 235);
+}
+
+.roxo-40{
+    background-color: rgb(173, 108, 235);
+}
+
+.roxo-60{
+    background-color: rgb(166, 95, 233);
+}
+
+.roxo-80{
+    background-color: rgb(147, 50, 238);
+}
+
+.sombra-card{
+    box-shadow: 2px 2px 5px #666;
+}
+
+.miniatura{
+    /* comportamento inline-block que continua semelhante
+    a texto porém reconhece margens e dimensões */
+    display: inline-block;
+    margin: 5px;
+}
+.miniatura img{
+    width: 150px;
+}
+
+.carousel{
+    box-shadow: 2px 2px 5px rgb(139, 19, 238);
+}
+
+
+
+/* Estilo para a seta sobe */
+.seta-sobe{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+/* Estilos para o Carrossel */
+.carousel-caption h3, .carousel-caption p{
+    text-shadow: 3px 3px 5px #000;
+}
+
+.carousel-caption{
+    background-color: rgba(150,0,250,0.1);
+}
+
+/* estilos para as seções */
+.titulos{
+    width: fit-content;
+    border-bottom: 7px rgb(143, 11, 231) solid;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: blueviolet;
+}
